@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import Header from 'react';
-import Nav from 'react';
 import About from 'react';
-import Projects from 'react';
+// import Projects from 'react';
 import Contact from 'react';
-import Resume from 'react';
+// import Resume from 'react';
 import Footer from 'react';
 
 function App() {
@@ -13,15 +12,15 @@ function App() {
     if (currentTab === "about"){
       return <About />
     }
-    if (currentTab === "projects"){
-      return <Projects />
-    }
+    // if (currentTab === "projects"){
+    //   return <Projects />
+    // }
     if (currentTab === "contact"){
       return <Contact />
     }
-    if (currentTab === "resume"){
-      return <Resume />
-    }
+    // if (currentTab === "resume"){
+    //   return <Resume />
+    // }
   }
   return (
     <div>
